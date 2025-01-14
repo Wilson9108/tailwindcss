@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <h1 class="text-center text-5xl bg-indigo-700 p-5 text-rose-50 uppercase tracking-widest0">grid</h1>
+
+    <div class="m-4 grid grid-cols-4">
+        <div class="w-[130px] h-[130px] bg-rose-50">01</div>
+        <div class="w-[130px] h-[130px] bg-rose-100">02</div>
+        <div class="w-[130px] h-[130px] bg-rose-200">03</div>
+        <div class="w-[130px] h-[130px] bg-rose-300">04</div>
+        <div class="w-[130px] h-[130px] bg-rose-400">05</div>
+    </div>
+
+    <h1 class="text-center text-3xl uppercase bg-lime-500 p-3">grid cols</h1>
+    <div class="m-4 grid grid-cols-8 cursor-pointer gap-3 md:grid-cols-5 lg:grid-cols:6  sm:grid-cols-4 hover:grid-cols-3 place-items-center ">
+        <div class="w-[130px] h-[130px] bg-rose-50">01</div>
+        <div class="w-[130px] h-[130px] bg-rose-100">02</div>
+        <div class="w-[130px] h-[130px] bg-rose-200">03</div>
+        <div class="w-[130px] h-[130px] bg-rose-300">04</div>
+        <div class="w-[130px] h-[130px] bg-rose-400">05</div>
+        <div class="w-[130px] h-[130px] bg-rose-400">06</div>
+        <div class="w-[130px] h-[130px] bg-rose-400">07</div>
+        <div class="w-[130px] h-[130px] bg-rose-400">08</div>
+    </div>
+    <h1 class="text-center text-3xl uppercase bg-lime-500 p-3">grid rows</h1>
+    <div class="m-4 grid grid-rows-3 hover:grid-rows-5 cursor-pointer grid-flow-col gap-3 ">
+        <div class="w-[130px] h-[130px] bg-rose-50">01</div>
+        <div class=" bg-rose-100 col-span-3 row-span-2 ">02</div>
+        <div class="w-[130px] h-[130px] bg-rose-200">03</div>
+        <div class="w-[130px] h-[130px] bg-rose-300">04</div>
+        <div class="w-[130px] h-[130px] bg-rose-400">05</div>
+        <div class="w-[130px] h-[130px] bg-rose-400">06</div>
+        <div class="w-[130px] h-[130px] bg-rose-400">07</div>
+        <div class="w-[130px] h-[130px] bg-rose-400">08</div>
+    </div>
+    
+</body>
+</html>
