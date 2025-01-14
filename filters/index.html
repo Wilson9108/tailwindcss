@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <h1 class="text-center bg-rose-400 uppercase bg-rose-400 text-5xl">filters</h1>
+    <h1 class="text-center text-3xl uppercase mt-4 bg-lime-50">blur</h1>
+    <div class="flex gap-2 m-5 drop-shadow-2xl cursor-pointer ">
+    <div class="w-[200px] h-[200px] bg-cover blur-none " style="background-image: url('https://i.pinimg.com/736x/df/02/58/df025816013afd711d73eba3640c9eb1.jpg');" ></div>
+    <img src="https://i.pinimg.com/736x/df/02/58/df025816013afd711d73eba3640c9eb1.jpg" width="200px"  height="200px" class="blur-sm"/>
+    <div class="w-[200px] h-[200px] bg-cover blur-md " style="background-image: url('https://i.pinimg.com/736x/df/02/58/df025816013afd711d73eba3640c9eb1.jpg');"></div>
+    <div class="w-[200px] h-[200px] bg-cover blur-xl hover:blur-2xl" style="background-image: url('https://i.pinimg.com/736x/df/02/58/df025816013afd711d73eba3640c9eb1.jpg');"></div>
+</div>
+
+<h1 class="text-center text-3xl  mt-10 bg-lime-100 p-5 uppercase ">brightness</h1>
+<div class="m-4 drop-shadow-2xl flex gap-2 ">
+    <div class="w-[200px] h-[200px] contrast-50 bg-cover brightness-50" style="background-image: url('https://i.pinimg.com/736x/df/02/58/df025816013afd711d73eba3640c9eb1.jpg');"></div>
+
+<div class="w-[200px] h-[200px] bg-cover brightness-75" style="background-image: url('https://i.pinimg.com/736x/df/02/58/df025816013afd711d73eba3640c9eb1.jpg');"></div>
+
+<div class="w-[200px] h-[200px] bg-cover brightness-90"  style="background-image: url('https://i.pinimg.com/736x/df/02/58/df025816013afd711d73eba3640c9eb1.jpg');"></div>
+
+<div class="w-[200px] h-[200px] bg-cover brightness-150" style="background-image: url('https://i.pinimg.com/736x/df/02/58/df025816013afd711d73eba3640c9eb1.jpg');"></div>
+</div>
+
+<h1 class="text-center uppercase text-5xl bg-rose-200 p-3" >contrast</h1>
+<div class="m-4 drop-shadow-2xl flex gap-2 ">
+    <div class="w-[200px] h-[200px] contrast-50 bg-cover " style="background-image: url('https://i.pinimg.com/736x/df/02/58/df025816013afd711d73eba3640c9eb1.jpg');"></div>
+
+<div class="w-[200px] h-[200px] bg-cover contrast-110 " style="background-image: url('https://i.pinimg.com/736x/df/02/58/df025816013afd711d73eba3640c9eb1.jpg');"></div>
+
+<div class="w-[200px] h-[200px] bg-cover contrast-125 "  style="background-image: url('https://i.pinimg.com/736x/df/02/58/df025816013afd711d73eba3640c9eb1.jpg');"></div>
+
+<div class="w-[200px] h-[200px] bg-cover brightness-150 contrast-90 saturate-200  hue-rotate-180 " style="background-image: url('https://i.pinimg.com/736x/df/02/58/df025816013afd711d73eba3640c9eb1.jpg');"></div>
+</div>
+</div>
+
+<h1 class="text-center bg-rose-500 uppercase text-3xl">grayscale</h1>
+<div class="flex mt-5 gap-2 m-4 drop-shadow-2xl">
+    <div class="w-[200px] h-[200px] bg-cover grayscale-0"  style="background-image: url('https://i.pinimg.com/736x/df/02/58/df025816013afd711d73eba3640c9eb1.jpg');"></div>
+    <div class="w-[200px] h-[200px] bg-cover grayscale" style="background-image: url('https://i.pinimg.com/736x/df/02/58/df025816013afd711d73eba3640c9eb1.jpg');"></div>
+    </div>
+</div>
+
+<h1 class="text-center uppercase text-5xl bg-rose-200 p-3 m-4" >hue rotate</h1>
+<div class="m-4 drop-shadow-2xl flex gap-2 ">
+    <div class="w-[200px] h-[200px]  bg-cover hue-rotate-30 " style="background-image: url('https://i.pinimg.com/736x/df/02/58/df025816013afd711d73eba3640c9eb1.jpg');"></div>
+
+<div class="w-[200px] h-[200px] bg-cover hue-rotate-60" style="background-image: url('https://i.pinimg.com/736x/df/02/58/df025816013afd711d73eba3640c9eb1.jpg');"></div>
+
+<div class="w-[200px] h-[200px] bg-cover hue-rotate-90 "  style="background-image: url('https://i.pinimg.com/736x/df/02/58/df025816013afd711d73eba3640c9eb1.jpg');"></div>
+
+<div class="w-[200px] h-[200px] bg-cover hue-rotate-180 " style="background-image: url('https://i.pinimg.com/736x/df/02/58/df025816013afd711d73eba3640c9eb1.jpg');"></div>
+</div>
+</div>
+
+<h1 class="text-center uppercase text-5xl bg-rose-200 p-3 m-4" >saturate</h1>
+<div class="m-4 drop-shadow-2xl flex gap-2 ">
+    <div class="w-[200px] h-[200px]  bg-cover saturate-50 " style="background-image: url('https://i.pinimg.com/736x/df/02/58/df025816013afd711d73eba3640c9eb1.jpg');"></div>
+
+<div class="w-[200px] h-[200px] bg-cover saturate-100" style="background-image: url('https://i.pinimg.com/736x/df/02/58/df025816013afd711d73eba3640c9eb1.jpg');"></div>
+
+<div class="w-[200px] h-[200px] bg-cover saturate-150 "  style="background-image: url('https://i.pinimg.com/736x/df/02/58/df025816013afd711d73eba3640c9eb1.jpg');"></div>
+
+<div class="w-[200px] h-[200px] bg-cover saturate-200 " style="background-image: url('https://i.pinimg.com/736x/df/02/58/df025816013afd711d73eba3640c9eb1.jpg');"></div>
+</div>
+</div>
+</body>
+</html>
